@@ -89,6 +89,7 @@ func addKnownTypes(scheme *runtime.Scheme) error {
 		&ConfigMapList{},
 		&CloudProvider{},
 		&CloudProviderList{},
+		&Registry{},
 	)
 	return nil
 }
